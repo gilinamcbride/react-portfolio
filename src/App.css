@@ -1,38 +1,418 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: brownsugar;
+  src: url(./assets/fonts/Brown_Sugar.ttf);
+}
+
+:root {
+  --primary-color: #e00244;
+  --secondary-color: #f1e8e8;
+  --tertiary-color: #292929;
+  --quaternary-color: #f8b0bf;
+}
+
+/* BODY STYLES */
+body {
+  font-family: "Old Standard TT", serif;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+/* HEADER SECTION */
+header {
+  background-image: url(./assets/images/header.svg);
+  background-size: cover;
+  background-position: center;
+  margin: 30px 30px 15px 30px;
+  flex: 200%;
+  height: 450px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.work-nav {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 40px;
+  font-family: brownsugar, serif;
+}
+
+.work-nav:hover {
+  color: var(--secondary-color);
+}
+
+.contact-nav {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 40px;
+  font-family: brownsugar, serif;
+}
+
+.contact-nav:hover {
+  color: var(--secondary-color);
+}
+
+/* ABOUT ME SECTION */
+.about-me {
+  margin: 15px 30px;
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.personal-info {
+  background-image: url(./assets/images/pink_background2.svg);
+  background-size: cover;
+  background-position: bottom right;
+  flex: 0 0 49%;
+  height: 600px;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.personal-info h1 {
+  font-size: 50px;
+  font-family: brownsugar, serif;
+}
+
+.personal-info p {
+  font-size: 18px;
+}
+
+.photo {
+  background-image: url(./assets/images/IMG_0133.JPG);
+  background-position: center left;
+  background-size: cover;
+  flex: 0 0 49%;
+  height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* WORK SECTION */
+.work-section {
+  border: solid var(--tertiary-color) 5px;
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  margin: 15px 30px;
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.info h1 {
+  font-size: 50px;
+  font-family: brownsugar, serif;
+}
+
+.new-work1 {
+  margin: 15px 30px;
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-photo,
+.work-text {
+  flex: 45%;
+}
+
+.work-text h2 {
+  font-family: brownsugar, serif;
+}
+
+.work4 {
+  height: 400px;
+  border: var(--secondary-color) solid 2px;
+  background-size: cover;
+  background-position: top left;
+  background-image: url(./assets/images/travel_blog.svg);
+}
+
+.work-text {
+  padding: 25px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.work-text h2 {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+.work-text h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.work-text p {
+  padding-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.click {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.click a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  margin: 10px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button:hover {
+  background-color: var(--quaternary-color);
+}
+
+.recent-work-nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.recent-work-nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.recent-work-nav a:hover {
+  color: var(--primary-color);
+}
+
+/* CONTACT ME SECTION */
+.contact {
+  margin: 15px 30px;
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact h1 {
+  font-size: 50px;
+  text-align: left;
+  font-family: brownsugar, serif;
+}
+
+.links {
+  background-image: url(./assets/images/red_background.svg);
+  background-size: cover;
+  background-position: left top;
+  flex: 0 0 49%;
+  height: 600px;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--secondary-color);
+}
+
+.email {
+  background-image: url(./assets/images/pink_background1.svg);
+  background-size: cover;
+  background-position: left bottom;
+  flex: 0 0 49%;
+  height: 600px;
+  padding: 30px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.email h1 {
+  font-family: brownsugar, serif;
+}
+
+.link-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  line-height: 2;
+  font-size: 25px;
+}
+
+.links a:hover {
+  color: var(--tertiary-color);
+}
+
+.links li:hover {
+  color: var(--tertiary-color);
+}
+
+.email p {
+  font-size: 20px;
+}
+
+/* SKILLS STYLES */
+
+.skills {
+  margin: 15px 30px;
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.skills h2 {
+  font-size: 35px;
+  font-family: brownsugar, serif;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* FOOTER STYLES */
+footer {
+  color: var(--secondary-color);
+  background-image: url(./assets/images/footer.svg);
+  background-size: cover;
+  background-position: right bottom;
+  margin: 15px 30px 30px 30px;
+  flex: 100%;
+  padding: 0 20px;
+  height: 175px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 757px) {
+  .personal-info {
+    flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+
+  .personal-info p {
+    font-size: 16px;
+  }
+
+  .link-list {
+    flex-direction: column;
+  }
+
+  .new-work1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .about-me {
+    flex-direction: column;
+  }
+
+  .personal-info p {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .photo {
+    margin-top: 25px;
+    padding: 250px 100px;
+  }
+
+  .work {
+    flex-direction: column;
+  }
+
+  .work-example {
+    flex: 85%;
+    margin: 40px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .link-list {
+    flex-direction: row;
+  }
+
+  .email {
+    margin-top: 25px;
+  }
+
+  .email p {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .recent-work-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons img {
+    flex-direction: column;
   }
 }
