@@ -45,9 +45,8 @@ header img {
   width: 300px;
 }
 
-.work-nav {
+.nav {
   position: absolute;
-  left: 40px;
   top: 40px;
   text-decoration: none;
   color: var(--tertiary-color);
@@ -55,7 +54,23 @@ header img {
   font-family: brownsugar, serif;
 }
 
-.work-nav:hover {
+.nav-list {
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+}
+
+/* .work-nav {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-size: 40px;
+  font-family: brownsugar, serif;
+} */
+
+/* .work-nav:hover {
   color: var(--secondary-color);
 }
 
@@ -71,7 +86,7 @@ header img {
 
 .contact-nav:hover {
   color: var(--secondary-color);
-}
+} */
 
 /* ABOUT ME SECTION */
 .about-me {
