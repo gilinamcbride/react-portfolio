@@ -7,18 +7,26 @@ import Projects from "./components/Projects";
 import ContactInfo from "./components/Contact-Info";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import ContactForm from "./components/Contact-Form";
 
 function App() {
   const [projectsSelected, setProjectsSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
       <Header
         projectsSelected={projectsSelected}
         setProjectsSelected={setProjectsSelected}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       />
       <main>
-        {!projectsSelected ? (
+        {contactSelected ? (
+          <ContactForm />
+        ) : projectsSelected ? (
+          <Projects />
+        ) : (
           <>
             <About />
             <Work
@@ -27,8 +35,6 @@ function App() {
             />
             <ContactInfo />
           </>
-        ) : (
-          <Projects />
         )}
       </main>
       <Skills />

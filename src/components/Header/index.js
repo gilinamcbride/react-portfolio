@@ -3,7 +3,12 @@ import Nav from "../Nav";
 import logo from "../../assets/images/logo.svg";
 
 const Header = (props) => {
-  const { projectsSelected, setProjectsSelected } = props;
+  const {
+    projectsSelected,
+    setProjectsSelected,
+    contactSelected,
+    setContactSelected,
+  } = props;
   return (
     <header>
       <a href="/">
@@ -13,6 +18,8 @@ const Header = (props) => {
         <Nav
           projectsSelected={projectsSelected}
           setProjectsSelected={setProjectsSelected}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
         />
       </div>
     </header>

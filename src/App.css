@@ -410,6 +410,25 @@ footer img {
   height: 150px;
   width: 150px;
 }
+
+/* CONTACT FORM STYLES */
+
+.contact-form-section {
+  margin: 15px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  background-color: var(--quaternary-color);
+}
+
+.contact-form-section h1 {
+  font-family: brownsugar, serif;
+  font-size: 30px;
+}
+
+.contact-form-section div {
+  margin: 20px 0px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 757px) {
