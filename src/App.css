@@ -213,8 +213,6 @@ header img {
 .click a {
   text-decoration: none;
   color: var(--secondary-color);
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .button {
@@ -223,6 +221,9 @@ header img {
   padding: 10px;
   border: none;
   border-radius: 10px;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
 }
 
 .button:hover {
@@ -246,6 +247,34 @@ header img {
 
 .recent-work-nav a:hover {
   color: var(--primary-color);
+}
+
+/* PROJECTS SECTION */
+
+.new-work {
+  color: var(--secondary-color);
+  margin: 15px 30px;
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: var(--tertiary-color);
+}
+
+.new-work:nth-child(even) {
+  background-color: var(--quaternary-color);
+  color: var(--tertiary-color)
+}
+
+.work-all {
+  height: 400px;
+  border: var(--secondary-color) solid 2px;
+  background-size: cover;
+  background-position: top left;
+  margin-left: 25px;
 }
 
 /* CONTACT ME SECTION */

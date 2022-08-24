@@ -28,7 +28,8 @@ const Skills = () => {
                 {photos.map((photo) => (
                     <div><img
                     src={require(`../../assets/images/icons/${photo.photo}.png`)}
-                    alt={photo.name} /></div>
+                    alt={photo.name} 
+                    key={photo.name}/></div>
                 ))}
             </div>
         </section>

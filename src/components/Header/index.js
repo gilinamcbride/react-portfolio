@@ -8,10 +8,13 @@ const Header = ()=> {
             <div className='nav'>
                 <Nav />
             </div>
-            <img
-                src={logo}
-                alt='gilina mcbride logo'
-            />
+            <a href="/">
+                <img
+                    src={logo}
+                    alt='gilina mcbride logo'
+                    key="gilina mcbride logo"
+                />
+            </a>
         </header>
     )
 }

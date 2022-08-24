@@ -5,7 +5,7 @@ const Nav = () => {
     return(
         <div className="nav-list">
             <p>My Work</p>
-            <p>About</p>
+            <a href="#about">About</a>
             <p>Contact</p>
             <p>Resume</p>
             {/* <div> className="" href="./work.html">My Work</div>
