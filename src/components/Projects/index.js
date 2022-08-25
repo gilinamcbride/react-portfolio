@@ -1,6 +1,6 @@
 import React from "react";
-import travel_blog from "../../assets/images/travel_blog.svg";
 import ProjectCard from "../Project-Card";
+import travel_blog from "../../assets/images/travel_blog.svg";
 
 const Projects = () => {
   const projects = [
