@@ -17,11 +17,10 @@ const Skills = () => {
       <h2>Skills</h2>
       <div className="icons">
         {photos.map((photo) => (
-          <div>
+          <div key={photo.name}>
             <img
               src={require(`../../assets/images/icons/${photo.photo}.png`)}
               alt={photo.name}
-              key={photo.name}
             />
           </div>
         ))}

@@ -451,10 +451,6 @@ footer img {
     flex-direction: row;
   }
 
-  .nav {
-    /* width: 50%; */
-  }
-
   .nav-list {
     font-size: 25px;
   }

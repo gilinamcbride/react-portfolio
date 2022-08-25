@@ -1,4 +1,6 @@
 import React from "react";
+import travel_blog from "../../assets/images/travel_blog.svg";
+import ProjectCard from "../Project-Card";
 
 const Projects = () => {
   const projects = [
@@ -9,7 +11,7 @@ const Projects = () => {
         "This traveler friendly application allows users to write about their experiences and read about other users vacations and explorations. When you arrive at the Out Of Office homepage, login or sign up for the blog. Users can write their own blog posts about the destinations they traveled, or search the blog for specific cities they want to explore. Out of Office is a travel blog deployed to Heroku. This application follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
       link: "https://sheltered-cliffs-36049.herokuapp.com/",
       githubLink: "https://github.com/gilinamcbride/travel-blog.git",
-      photo: "travel_blog",
+      photo: travel_blog,
     },
     {
       title: "Pregame",
@@ -61,35 +63,7 @@ const Projects = () => {
   return (
     <main>
       {projects.map((project) => (
-        <section className="new-work">
-          <div className="work-photo">
-            <a href={project.link} target="_blank" rel="noreferrer">
-              {/* <img
-                src={require(`../../assets/images/${project.photo}.svg`)}
-                alt={project.title}
-                key={project.name}
-                />  */}
-              <div
-                className="work-all"
-                style={{
-                  backgroundImage: `url(../../assets/images/${project.photo}.svg)`,
-                }}
-              ></div>
-            </a>
-          </div>
-          <div className="work-text">
-            <h2>{project.title}</h2>
-            <h3>{project.subtitle}</h3>
-            <p>{project.description}</p>
-            <div className="click">
-              <a href={project.githubLink} target="_blank" rel="noreferrer">
-                <button type="button" className="button">
-                  View Github Repository
-                </button>
-              </a>
-            </div>
-          </div>
-        </section>
+        <ProjectCard project={project} />
       ))}
     </main>
   );
