@@ -6,6 +6,8 @@ const Nav = (props) => {
     setProjectsSelected,
     contactSelected,
     setContactSelected,
+    aboutSelected,
+    setAboutSelected,
   } = props;
   return (
     <div className="nav-list">
@@ -14,17 +16,29 @@ const Nav = (props) => {
           onClick={() => {
             setProjectsSelected(true);
             setContactSelected(false);
+            setAboutSelected(false);
           }}
         >
           My Work
         </span>
       </p>
-      <a href="#about">About</a>
+      <p className={`${aboutSelected && "nav-active"}`}>
+        <span
+          onClick={() => {
+            setAboutSelected(true);
+            setProjectsSelected(false);
+            setContactSelected(false);
+          }}
+        >
+          About
+        </span>
+      </p>
       <p className={`${contactSelected && "nav-active"}`}>
         <span
           onClick={() => {
             setContactSelected(true);
             setProjectsSelected(false);
+            setAboutSelected(false);
           }}
         >
           Contact

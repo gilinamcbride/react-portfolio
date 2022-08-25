@@ -8,6 +8,8 @@ const Header = (props) => {
     setProjectsSelected,
     contactSelected,
     setContactSelected,
+    aboutSelected,
+    setAboutSelected,
   } = props;
   return (
     <header>
@@ -20,6 +22,8 @@ const Header = (props) => {
           setProjectsSelected={setProjectsSelected}
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
+          aboutSelected={aboutSelected}
+          setAboutSelected={setAboutSelected}
         />
       </div>
     </header>

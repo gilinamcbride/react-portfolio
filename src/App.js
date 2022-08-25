@@ -12,6 +12,7 @@ import ContactForm from "./components/Contact-Form";
 function App() {
   const [projectsSelected, setProjectsSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(false);
 
   return (
     <div>
@@ -20,12 +21,19 @@ function App() {
         setProjectsSelected={setProjectsSelected}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        aboutSelected={aboutSelected}
+        setAboutSelected={setAboutSelected}
       />
       <main>
         {contactSelected ? (
           <ContactForm />
         ) : projectsSelected ? (
-          <Projects />
+          <>
+            <Projects />
+            <Skills />
+          </>
+        ) : aboutSelected ? (
+          <About />
         ) : (
           <>
             <About />
@@ -34,10 +42,10 @@ function App() {
               setProjectsSelected={setProjectsSelected}
             />
             <ContactInfo />
+            <Skills />
           </>
         )}
       </main>
-      <Skills />
       <Footer />
     </div>
   );
