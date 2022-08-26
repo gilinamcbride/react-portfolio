@@ -57,9 +57,14 @@ const Work = (props) => {
           </a>
         </div>
         <div>
-          <span className="work-btn" onClick={() => setProjectsSelected(true)}>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a
+            href="#"
+            className="work-btn"
+            onClick={() => setProjectsSelected(true)}
+          >
             View All Work &rarr;
-          </span>
+          </a>
         </div>
       </div>
     </main>

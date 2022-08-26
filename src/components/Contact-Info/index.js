@@ -1,36 +1,65 @@
-import React from 'react';
+import React from "react";
 
 const ContactInfo = () => {
-    return(
-        <section id="contact" className="contact">
-            <section className="links">
-                <h1>Let's connect</h1>
-                <div className="link-list">
-                <ul>
-                    <li><a href="mailto:gilinamcbride@gmail.com" target="_blank" rel="noreferrer">Email</a></li>
-                    <li><a href="https://github.com/gilinamcbride" target="_blank" rel="noreferrer"
-                    >Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/gilinamcbride/" target="_blank" rel="noreferrer"
-                    >LinkedIn</a></li>
-                </ul>
-                <ul>
-                    <li><a href="https://www.instagram.com/gilinamcbride/" target="_blank" rel="noreferrer"
-                    >Instagram</a></li>
-                    <li><a href="https://twitter.com/GilinaMcBride" target="_blank" rel="noreferrer"
-                    >Twitter</a></li>
-                    <li><a href="https://www.facebook.com/gilina.mcbride" target="_blank" rel="noreferrer"
-                    >Facebook</a></li>
-                </ul>
-                </div>
-            </section>
-            <section className="email">
-                <h1>Want to work together?</h1>
-                <p>
-                I am open to new positions as a full stack developer. I would love to hear from you and your company. Reach out at gilinamcbride@gmail.com.
-                </p>
-            </section>
-        </section>
-    )
+  const information = [
+    {
+      link: "mailto:gilinamcbride@gmail.com",
+      icon: "email",
+      name: "Email",
+    },
+    {
+      link: "https://github.com/gilinamcbride",
+      icon: "light-github",
+      name: "Github",
+    },
+    {
+      link: "https://www.linkedin.com/in/gilinamcbride/",
+      icon: "linkedin",
+      name: "LinkedIn",
+    },
+    {
+      link: "https://www.instagram.com/gilinamcbride/",
+      icon: "instagram",
+      name: "Instagram",
+    },
+    {
+      link: "https://twitter.com/GilinaMcBride",
+      icon: "twitter",
+      name: "Twitter",
+    },
+    {
+      link: "https://www.facebook.com/gilina.mcbride",
+      icon: "facebook",
+      name: "Facebook",
+    },
+  ];
+
+  return (
+    <section id="contact" className="contact">
+      <section className="links">
+        <h1>Let's connect</h1>
+        <div className="link-list">
+          {information.map((link) => (
+            <div className="link" key={link.name}>
+              <a href={link.link} target="_blank" rel="noreferrer">
+                <img
+                  src={require(`../../assets/images/icons/${link.icon}.png`)}
+                  alt={link.name}
+                />
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section className="email">
+        <h1>Want to work together?</h1>
+        <p>
+          I am open to new positions as a full stack developer. I would love to
+          hear from you and your company. Reach out at gilinamcbride@gmail.com.
+        </p>
+      </section>
+    </section>
+  );
 };
 
 export default ContactInfo;
