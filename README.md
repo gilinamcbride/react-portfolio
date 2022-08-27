@@ -51,7 +51,7 @@ This React application displays a portfolio of my work samples, resume, and cont
 
 ![Screenshot of application](./src/assets/images/screenshot.png)
 
-[Link to deployed Application]()
+[Link to deployed Application](https://gilinamcbride.github.io/react-portfolio/)
 
 ## Questions?
 
