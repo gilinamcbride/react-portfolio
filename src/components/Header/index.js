@@ -13,7 +13,7 @@ const Header = (props) => {
   } = props;
   return (
     <header>
-      <a href="/react-portfolio">
+      <a href="https://gilinamcbride.github.io/react-portfolio/">
         <img src={logo} alt="gilina mcbride logo" key="gilina mcbride logo" />
       </a>
       <div className="nav">
