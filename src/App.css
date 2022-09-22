@@ -18,7 +18,7 @@
 
 /* BODY STYLES */
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
 }
@@ -162,7 +162,7 @@ header img {
   border: var(--secondary-color) solid 2px;
   background-size: cover;
   background-position: top left;
-  background-image: url(./assets/images/travel_blog.svg);
+  background-image: url(./assets/images/carbon-footsteps.svg);
 }
 
 .work-text {
@@ -206,7 +206,7 @@ header img {
   border: none;
   border-radius: 10px;
   font-size: 22px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .button:hover {

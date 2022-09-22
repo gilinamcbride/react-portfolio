@@ -1,57 +1,53 @@
-import React from "react";
+import React from 'react';
 
 const Work = (props) => {
   const { setProjectsSelected } = props;
   return (
-    <main id="work-section" className="work-section">
-      <div className="info">
+    <main id='work-section' className='work-section'>
+      <div className='info'>
         <h1>Portfolio</h1>
       </div>
-      <section className="new-work1">
-        <div className="work-photo">
+      <section className='new-work1'>
+        <div className='work-photo'>
           <a
-            href="https://sheltered-cliffs-36049.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
+            href='https://carbon-footsteps.herokuapp.com/'
+            target='_blank'
+            rel='noreferrer'
           >
-            {" "}
-            <div className="work4"></div>
+            {' '}
+            <div className='work4'></div>
           </a>
         </div>
-        <div className="work-text">
-          <h2>Out Of Office</h2>
-          <h3>Node.js, Sequelize, Heroku, Express-Session</h3>
+        <div className='work-text'>
+          <h2>Carbon Footsteps</h2>
+          <h3>React.js, GraphQL, MongoDB</h3>
           <p>
-            This traveler friendly application allows users to write about their
-            experiences and read about other users vacations and explorations.
-            When you arrive at the Out Of Office homepage, login or sign up for
-            the blog. Users can write their own blog posts about the
-            destinations they traveled, or search the blog for specific cities
-            they want to explore. Out of Office is a travel blog deployed to
-            Heroku. This application follows the MVC paradigm in its
-            architectural structure, uses Handlebars.js as the templating
-            language, Sequelize as the ORM, and the express-session npm package
-            for authentication.
+            This MERN stack application is for an environmentally conscious user
+            who wants to calculate their carbon footprint and learn more about
+            how to offset their emissions in order to positively impact the
+            world's climate. Simply log into Carbon Footsteps, use the
+            calculator to see your carbon footprint, and make your pledge of
+            simple steps to offset your carbon emissions.
           </p>
-          <div className="click">
+          <div className='click'>
             <a
-              href="https://github.com/gilinamcbride/travel-blog.git"
-              target="_blank"
-              rel="noreferrer"
+              href='https://github.com/nmsiegel1/carbon-footprint.git'
+              target='_blank'
+              rel='noreferrer'
             >
-              <button type="button" className="button">
+              <button type='button' className='button'>
                 View Github Repository
-              </button>{" "}
+              </button>{' '}
             </a>
           </div>
         </div>
       </section>
-      <div className="recent-work-nav">
+      <div className='recent-work-nav'>
         <div>
           <a
-            href="https://github.com/gilinamcbride"
-            target="_blank"
-            rel="noreferrer"
+            href='https://github.com/gilinamcbride'
+            target='_blank'
+            rel='noreferrer'
           >
             &larr; More Work On Github
           </a>
@@ -59,8 +55,8 @@ const Work = (props) => {
         <div>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a
-            href="#"
-            className="work-btn"
+            href='#'
+            className='work-btn'
             onClick={() => setProjectsSelected(true)}
           >
             View All Work &rarr;
