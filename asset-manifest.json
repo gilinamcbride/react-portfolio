@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.bb6c6a18.css",
-    "main.js": "/react-portfolio/static/js/main.12ad655c.js",
+    "main.js": "/react-portfolio/static/js/main.2f931ecc.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/header.svg": "/react-portfolio/static/media/header.cc711a1cdb62d2665e76.svg",
     "static/media/travel_blog.svg": "/react-portfolio/static/media/travel_blog.db2d2b9dd4c5e45bbc549b7db03d6e75.svg",
@@ -16,18 +16,18 @@
     "static/media/weather_image.svg": "/react-portfolio/static/media/weather_image.9318d0ddabf9c41360622c99dfe3a2e4.svg",
     "static/media/tech_blog.svg": "/react-portfolio/static/media/tech_blog.57854627f1947b6c8aa4a10969ae4f9d.svg",
     "static/media/code_quiz_image.svg": "/react-portfolio/static/media/code_quiz_image.bd3535bcef18f8c1fa2371b4e1c27dcd.svg",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.afa8e7f436b3142e070a.pdf",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.8d84e61d05ca33bd1487.pdf",
     "static/media/Brown_Sugar.ttf": "/react-portfolio/static/media/Brown_Sugar.5d43ee80a4471ade023e.ttf",
     "static/media/instagram.png": "/react-portfolio/static/media/instagram.542f80b8d0cc10956126.png",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.417f1e31a925b3a591033d56e32781db.svg",
     "static/media/logo_light.svg": "/react-portfolio/static/media/logo_light.e01a3c94f2518ec2dcf91ca26e55713f.svg",
     "index.html": "/react-portfolio/index.html",
     "main.bb6c6a18.css.map": "/react-portfolio/static/css/main.bb6c6a18.css.map",
-    "main.12ad655c.js.map": "/react-portfolio/static/js/main.12ad655c.js.map",
+    "main.2f931ecc.js.map": "/react-portfolio/static/js/main.2f931ecc.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb6c6a18.css",
-    "static/js/main.12ad655c.js"
+    "static/js/main.2f931ecc.js"
   ]
 }
