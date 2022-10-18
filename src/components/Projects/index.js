@@ -1,12 +1,12 @@
 import React from 'react';
 import ProjectCard from '../Project-Card';
-import travel_blog from '../../assets/images/travel_blog.svg';
-import pregame from '../../assets/images/pregame_image.svg';
-import weather from '../../assets/images/weather_image.svg';
-import tech_blog from '../../assets/images/tech_blog.svg';
-import social_network from '../../assets/images/social_network_image.svg';
-import code_quiz from '../../assets/images/code_quiz_image.svg';
-import footsteps from '../../assets/images/carbon-footsteps.svg';
+import travel_blog from '../../assets/images/travel_blog.png';
+import pregame from '../../assets/images/pregame_image.png';
+import weather from '../../assets/images/weather_image.png';
+import tech_blog from '../../assets/images/tech_blog.png';
+import social_network from '../../assets/images/social_network_image.png';
+import code_quiz from '../../assets/images/code_quiz_image.png';
+import footsteps from '../../assets/images/carbon-footsteps.png';
 
 const Projects = () => {
   const projects = [

@@ -162,7 +162,7 @@ header img {
   border: var(--secondary-color) solid 2px;
   background-size: cover;
   background-position: top left;
-  background-image: url(./assets/images/carbon-footsteps.svg);
+  background-image: url(./assets/images/carbon-footsteps.png);
 }
 
 .work-text {
