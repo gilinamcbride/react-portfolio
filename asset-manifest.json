@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bb6c6a18.css",
-    "main.js": "/react-portfolio/static/js/main.101608b9.js",
+    "main.css": "/react-portfolio/static/css/main.3b835fe3.css",
+    "main.js": "/react-portfolio/static/js/main.3c5fa5a5.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/header.svg": "/react-portfolio/static/media/header.cc711a1cdb62d2665e76.svg",
-    "static/media/travel_blog.svg": "/react-portfolio/static/media/travel_blog.db2d2b9dd4c5e45bbc549b7db03d6e75.svg",
     "static/media/red_background.svg": "/react-portfolio/static/media/red_background.662a78847870eec40f14.svg",
     "static/media/pink_background1.svg": "/react-portfolio/static/media/pink_background1.7171c8f0e8278e09e2a5.svg",
     "static/media/pink_background2.svg": "/react-portfolio/static/media/pink_background2.b6fb879c03662c52a49b.svg",
     "static/media/footer.svg": "/react-portfolio/static/media/footer.cf989e86a43df1aa00a0.svg",
-    "static/media/pregame_image.svg": "/react-portfolio/static/media/pregame_image.51650b583abe95598b06c32a9ffdbe11.svg",
     "static/media/IMG_0133.JPG": "/react-portfolio/static/media/IMG_0133.c90b5667f8bf6760d46a.JPG",
-    "static/media/social_network_image.svg": "/react-portfolio/static/media/social_network_image.b8baeee2cb7e27c5a86c210de52650f5.svg",
-    "static/media/carbon-footsteps.svg": "/react-portfolio/static/media/carbon-footsteps.a78120ffb2914a08088be89b274cad0c.svg",
-    "static/media/weather_image.svg": "/react-portfolio/static/media/weather_image.9318d0ddabf9c41360622c99dfe3a2e4.svg",
-    "static/media/tech_blog.svg": "/react-portfolio/static/media/tech_blog.57854627f1947b6c8aa4a10969ae4f9d.svg",
-    "static/media/code_quiz_image.svg": "/react-portfolio/static/media/code_quiz_image.bd3535bcef18f8c1fa2371b4e1c27dcd.svg",
+    "static/media/travel_blog.png": "/react-portfolio/static/media/travel_blog.4c4075fc03d6520354d5.png",
+    "static/media/pregame_image.png": "/react-portfolio/static/media/pregame_image.5d42a4b2ac53e84e4ec3.png",
+    "static/media/social_network_image.png": "/react-portfolio/static/media/social_network_image.551bf16b5fa016ee4fd5.png",
+    "static/media/carbon-footsteps.png": "/react-portfolio/static/media/carbon-footsteps.5e859795840a01d3d520.png",
+    "static/media/weather_image.png": "/react-portfolio/static/media/weather_image.278d00fe78709168cd48.png",
+    "static/media/code_quiz_image.png": "/react-portfolio/static/media/code_quiz_image.c6548effd2c6f313bf2c.png",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.8d84e61d05ca33bd1487.pdf",
+    "static/media/tech_blog.png": "/react-portfolio/static/media/tech_blog.2d1cc7cf9a725933ee23.png",
     "static/media/Brown_Sugar.ttf": "/react-portfolio/static/media/Brown_Sugar.5d43ee80a4471ade023e.ttf",
     "static/media/instagram.png": "/react-portfolio/static/media/instagram.542f80b8d0cc10956126.png",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.417f1e31a925b3a591033d56e32781db.svg",
     "static/media/logo_light.svg": "/react-portfolio/static/media/logo_light.e01a3c94f2518ec2dcf91ca26e55713f.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.bb6c6a18.css.map": "/react-portfolio/static/css/main.bb6c6a18.css.map",
-    "main.101608b9.js.map": "/react-portfolio/static/js/main.101608b9.js.map",
+    "main.3b835fe3.css.map": "/react-portfolio/static/css/main.3b835fe3.css.map",
+    "main.3c5fa5a5.js.map": "/react-portfolio/static/js/main.3c5fa5a5.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb6c6a18.css",
-    "static/js/main.101608b9.js"
+    "static/css/main.3b835fe3.css",
+    "static/js/main.3c5fa5a5.js"
   ]
 }
